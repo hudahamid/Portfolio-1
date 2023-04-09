@@ -34,6 +34,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
@@ -41,6 +42,8 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
+        <Projects/>
+        <About/>
         <Footer />
       </div>
     </Router>

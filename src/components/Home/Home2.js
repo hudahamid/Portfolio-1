@@ -12,7 +12,6 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <col></col>
           <Col md={16} className="home-about-description align-items-center">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -52,11 +51,11 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            {/* <Tilt>
+          {/* <Col md={4} className="myAvtar">
+             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt> */}
-          </Col>
+            </Tilt> 
+          </Col> */}
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
