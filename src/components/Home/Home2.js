@@ -12,15 +12,17 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <col></col>
+          <Col md={16} className="home-about-description align-items-center">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body align-items-center" >
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              {/* <br /> */}
+              {/* <br /> */}
+                  I am fluent in classics like
               <i>
                 <b className="purple">  Javascript and Python. </b>
               </i>
